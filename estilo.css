@@ -300,6 +300,7 @@ h1 {
 
 .grid_items_div h3 {
     text-align: center;
+    color: #000070;
 }
 
 .grid_items_works {
@@ -309,7 +310,7 @@ h1 {
 }
 
 .grid_items_works:hover {
-    box-shadow: 0 3px 15px 0 #5348ee;
+    box-shadow: 0 3px 15px 0 #555555;
 }
 
 /*------ contact ------*/
