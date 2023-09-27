@@ -135,7 +135,7 @@ h1 {
 /*------ Links ------*/
 .socialmedia {
     display: flex;
-    margin-top: 30px;           
+    margin-top: 30px;
 }
 
 .resumelink {
@@ -377,73 +377,36 @@ h1 {
     box-shadow: 0 2px 15px 0 #aaa;
 }
 
-.titulo-contact_form {
-    margin: 20px;
-    font-weight: 500;
-    letter-spacing: 2px;
-    font-size: 1.2rem;
-    align-self: flex-start;
-    color: #000070;
-}
-
-.form_contact {
-    padding: 20px;
-    margin: 10px;
-    height: 60vh;
-}
-
-.name {
-    height: 8vh;
-    width: 32.4vw;
+.contact-whatsapp {
+    margin: 30px;
+    transition-duration: 0.7s;
     border-radius: 10px;
-    margin-bottom: 10px;
-    margin-right: 0.4vw;
-    padding: 7px;
-    border-color: #aaa;
-    border-style: solid;
+    border: 0.5px solid #ddd;
 }
 
-.email {
-    display: inline;
-    height: 8vh;
-    width: 34vw;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    padding: 7px;
-    border-color: #aaa;
-    border-style: solid;
-}
-
-.subject {
-    height: 8vh;
-    width: 70vw;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    margin-right: 0.4vw;
-    padding: 7px;
-    border-color: #aaa;
-    border-style: solid;
-}
-
-.form_contact textarea {
-    resize: none;
-    height: 25vh;
-    width: 70vw;
-    margin: 10px 0;
-    border-radius: 15px;
+.contact-whatsapp a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
     padding: 10px;
+    color: var(--maincolor);
+    font-size: 15px;
 }
 
-.submit {
-    margin-top: 15px;
-    font-size: 18px;
-    padding: 10px;
-    border-radius: 15px;
-    border: 1px solid #aaa;
-    color: #eee;
-    background-color: var(--maincolor);
-    position: relative;
-    left: 45%;
+.contact-whatsapp p {
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #555;
+    font-size: 15px;
+}
+
+.contact-whatsapp:hover {
+    box-shadow: 0 2px 15px 0 #000070;
+}
+
+.contact-whatsapp a i {
+    color: var(--maincolor);
 }
 
 /*------ Footer ------*/
@@ -568,9 +531,5 @@ footer {
     .grid_items_div h3 {
         text-align: center;
         font-size: 2.5vw;
-    }
-
-    .name {
-        width: 32vw;
     }
 }
