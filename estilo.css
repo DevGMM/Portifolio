@@ -135,7 +135,9 @@ h1 {
 /*------ Links ------*/
 .socialmedia {
     display: flex;
-    margin-top: 30px;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 .resumelink {
