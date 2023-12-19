@@ -3,21 +3,21 @@ const navBar = document.querySelector(".nav_menu_bars");
 const navUl = document.querySelector(".nav_ul");
 const navLinks = document.querySelector(".nav_ul li");
 
-function add_removeClass(){
+function add_removeClass() {
     navBar.classList.toggle("nav_menu_bars_active");
     navUl.classList.toggle("nav_ul_active");
 };
-navBar.addEventListener("click", ()=>{
+navBar.addEventListener("click", () => {
     add_removeClass();
 });
 navLinks.forEach((e) => {
-    e.addEventListener("click", ()=>{
+    e.addEventListener("click", () => {
         add_removeClass()
     })
 });
-function widthSixe(){
+function widthSize() {
     let anchor = window.innerWidth;
-    if (anchor > 750){
+    if (anchor > 750) {
         navBar.classList.remove("nav_menu_bars_active");
         navUl.classList.remove("nav_ul_active");
     };
